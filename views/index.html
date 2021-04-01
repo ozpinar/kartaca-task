@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chart</title>
+</head>
+<body>
+    <!-- Main Wrapper -->
+   <div class="container">
+       <!-- Header -->
+        <div class="header">
+            <h1>Realtime Chart</h1>
+            <span>You can click home button below to see most recent requests.</span>
+        </div>
+        <!-- Chart -->
+        <div id="chart"></div>
+        <h3>You can send requests by clicking the buttons below</h3>
+        <!-- Buttons -->
+        <div class="buttons">
+            <button class="get">
+                GET
+            </button>
+            <button class="post">
+                POST
+            </button>
+            <button class="put">
+                PUT
+            </button>
+            <button class="delete">
+                DELETE
+            </button>
+        </div>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="script.js"></script>
+</body>
+</html>

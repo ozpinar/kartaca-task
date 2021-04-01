@@ -1,0 +1,14 @@
+{
+  "logs": [
+    {
+      "method": "DELETE",
+      "responseTime": 1.9472999999999998,
+      "timestamp": 1617197358251
+    },
+    {
+      "method": "PUT",
+      "responseTime": 0.48819999999999997,
+      "timestamp": 1617197402358
+    }
+  ]
+}
